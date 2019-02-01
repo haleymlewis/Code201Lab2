@@ -27,11 +27,13 @@ console.log('Year graduated, ' + college);
 while(college !== '2011'){
   alert('Nope, guess again! Probably earlier than you\'d think...');
   var years = prompt('What year did I graduate from college?');
-}alert('Yep, I graduated in 2011. At the ripe old age of 20. When I was young...');g
+}
+alert('Yep, I graduated in 2011. At the ripe old age of 20.');
 
 // Question 4
 
 var milk = prompt('Am I Lacotse Intolerant?')
+.toLowerCase(milk);
 if(milk === 'yes') {
   alert('Unfortunately, correct. Milk is not my friend.');
 }else{
@@ -40,4 +42,3 @@ if(milk === 'yes') {
 
 // Question 5
 
-var 
