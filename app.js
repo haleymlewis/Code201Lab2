@@ -20,11 +20,24 @@ while(years !== '28'){
 };
 alert('Correct, I have lived in WA for 28 years!');
 
-// //Question 3
+// Question 3
+
 var college = prompt('What year did I graduate from college?');
-console.log('Year graduated, ' college);
+console.log('Year graduated, ' + college);
 while(college !== '2011'){
   alert('Nope, guess again! Probably earlier than you\'d think...');
   var years = prompt('What year did I graduate from college?');
+}alert('Yep, I graduated in 2011. At the ripe old age of 20. When I was young...');g
+
+// Question 4
+
+var milk = prompt('Am I Lacotse Intolerant?')
+if(milk === 'yes') {
+  alert('Unfortunately, correct. Milk is not my friend.');
+}else{
+  alert('I wish, but nope, milk and I are no longer friends');
 }
-alert('Yep, I graduated in 2011. At the ripe old age of 20. When I was young...');
+
+// Question 5
+
+var 
