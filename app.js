@@ -42,3 +42,10 @@ if(milk === 'yes') {
 
 // Question 5
 
+var femme = prompt('Am I am feminist?')
+.toLowerCase(femme);
+if(femme === yes) {
+  alert('Yep, I sure am!');
+}else{
+  alert('Nope, I sure am! It\'s not a dirty word!');
+}
