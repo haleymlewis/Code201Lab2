@@ -1,6 +1,11 @@
-header {
-    color: blueviolet;
-    background-color: rgb(135, 222, 186);
-
+body {
+    color:  rgb(250, 102, 102);
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
 
 }
+
+h1, h2, h3 {
+    text-shadow: 1px 1px #bdb387;
+}
+

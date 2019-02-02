@@ -35,7 +35,7 @@ alert('Yep, I graduated in 2011. At the ripe old age of 20.');
 var milk = prompt('Am I Lacotse Intolerant?')
 .toLowerCase(milk);
 if(milk === 'yes') {
-  alert('Unfortunately, correct. Milk is not my friend.');
+  alert('Correct, unfortunately. Milk is not my friend.');
 }else{
   alert('I wish, but nope, milk and I are no longer friends');
 }
