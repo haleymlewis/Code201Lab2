@@ -23,17 +23,20 @@ alert('Correct, I have lived in WA for 28 years!');
 // Question 3
 
 var college = prompt('What year did I graduate from college?');
-console.log('Year graduated, ' + college);
+console.log('Haley graduated from college in ' + college);
 while(college !== '2011'){
   alert('Nope, guess again! Probably earlier than you\'d think...');
-  var years = prompt('What year did I graduate from college?');
-}
-alert('Yep, I graduated in 2011. At the ripe old age of 20.');
+  var college = prompt('What year did I graduate from college?');
+  if(college === '2011'){
+    alert('Yep, I graduated in 2011. At the ripe old age of 20.');
+  }
+} alert('Yep, I graduated in 2011');
 
 // Question 4
 
 var milk = prompt('Am I Lacotse Intolerant?')
-.toLowerCase(milk);
+console.log(milk + ' Haley is lactose intolerant.');
+milk.toLowerCase();
 if(milk === 'yes') {
   alert('Correct, unfortunately. Milk is not my friend.');
 }else{
@@ -43,9 +46,28 @@ if(milk === 'yes') {
 // Question 5
 
 var femme = prompt('Am I am feminist?')
-.toLowerCase(femme);
+femme.toLowerCase();
+console.log(femme +' Haley is a proud feminist');
 if(femme === yes) {
   alert('Yep, I sure am!');
 }else{
   alert('Nope, I sure am! It\'s not a dirty word!');
+}
+
+// Question 6
+var badGuess = 0;
+var imdb = prompt('How many credits do I have on my IMdB page? Please use numerical input!');
+while (badGuess !== 6) {
+  imdb = prompt('Nope, guess again!');
+  if(imdb <= 5){
+    imdb = prompt('Nope, too low! Give me SOME credit...');
+  }
+  else if(imdb >= 7){
+    imdb = prompt('WHOA, no way! Lower!');
+  } 
+  else if(imdb === 6){
+    alert('Correct, I have 6 IMdB Credits.');
+    badGuess = 6
+  }
+  badGuess++
 }
