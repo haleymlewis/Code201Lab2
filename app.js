@@ -2,13 +2,16 @@
 
 //Question 1
 
-var pets = prompt('How many pets do I own?');
+function askpets(){
+  var pets = prompt('How many pets do I own?');
 console.log('Number of pets, ', pets);
 while(pets !== '2'){
   alert('Nope, guess again!');
   var pets = prompt('How many pets do I ACTUALLY have?');
 };
-alert('Correct, I have 2 pets!');
+alert('Correct, I have 2 pets!');}
+
+askpets();
 
 //Question 2
 
