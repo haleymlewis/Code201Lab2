@@ -15,13 +15,17 @@ askpets();
 
 //Question 2
 
-var years = prompt('How many years have I lived in Washington?');
+function liveWA(){
+  var years = prompt('How many years have I lived in Washington?');
 console.log('Years lived in WA: ', years);
 while(years !== '28'){
   alert('Nope, guess again!');
   var years = prompt('How many years have I ACTUALLY lived in Washington?');
 };
 alert('Correct, I have lived in WA for 28 years!');
+}
+
+liveWA();
 
 // Question 3
 
