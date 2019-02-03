@@ -29,7 +29,7 @@ liveWA();
 
 // Question 3
 
-var college = prompt('What year did I graduate from college?');
+function collegeGrad(){var college = prompt('What year did I graduate from college?');
 console.log('Haley graduated from college in ' + college);
 for (i = 0; i < 4; i++) {
   if (college === '2011') {
@@ -39,11 +39,13 @@ for (i = 0; i < 4; i++) {
     college = prompt('Nope, guess again! Probably ealier than you\'d think...');
   }
 }
+}
+collegeGrad();
 
 
 // // Question 4
 
-var milk = prompt('Am I Lactose Intolerant?')
+function lactose(){var milk = prompt('Am I Lactose Intolerant?')
 console.log(milk + ' Haley is lactose intolerant.');
 milk.toLowerCase();
 if(milk === 'yes') {
@@ -51,6 +53,8 @@ if(milk === 'yes') {
 }else{
   alert('I wish, but nope, milk and I are no longer friends');
 }
+}
+lactose();
 
 // Question 5
 
