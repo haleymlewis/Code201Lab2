@@ -1,5 +1,10 @@
 'use strict';
 
+var name = prompt('Before we get started, what is your name?');
+console.log('User name: ' + name);
+alert('Nice to meet you, ' + name + ". Let's play a little game!")
+
+
 //Question 1
 
 function askpets() {
