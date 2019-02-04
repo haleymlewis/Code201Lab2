@@ -89,7 +89,7 @@ function film(){
       console.log('IMdB < 6: ' + imdb);
     }
     console.log('for loop ends');
-    imdb = prompt('Nope, guess again!');
+    imdb = prompt('Guess again!');
   }
 };
 

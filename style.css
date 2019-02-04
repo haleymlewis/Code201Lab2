@@ -1,11 +1,40 @@
 body {
     color:  rgb(250, 102, 102);
     background-color: darkslategray;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: bold, 'Courier New', Courier, monospace;
 
 }
 
 h1, h2, h3, h4 {
-    text-shadow: 1px 1px #5e5946;
+    text-shadow: 1px 2px #7e734b;
 }
 
+#diet {
+    width: 50%;
+}
+
+/* .haley {
+    position: relative;
+    width: 400px;
+}
+
+#baby-head {
+    position: relative;
+    width: 100px 100px 100px 100px;
+}
+
+.lucy {
+    float: relative;
+    width: 400px;
+    margin: 300px 300px 300px 300px;
+}
+.rigby {
+    float: relative;
+    width: 400; 
+    margin: 600px 600px 300px 300px;
+}
+
+.cwu {
+    position: relative;
+    width: 300px 300px 300px 300px;
+} */
