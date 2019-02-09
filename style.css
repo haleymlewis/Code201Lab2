@@ -2,12 +2,9 @@ body {
     color:  rgb(250, 102, 102);
     background-color: darkslategray;
     font-family: bold, 'Courier New', Courier, monospace;
-
-}
-
-h1, h2, h3, h4 {
     text-shadow: 1px 2px #000000;
 }
+
 
 #diet {
     width: 50%;
