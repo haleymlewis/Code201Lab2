@@ -13,7 +13,7 @@ function askpets() {
     console.log('Number of pets, ', pets);
     var petGuess = 0
     while (pets !== '2') {
-        alert('Nope, guess again!');
+        alert('Nope, guess again! It\'s only a COUPLE...');
         pets = prompt('How many pets do I ACTUALLY have?');
         petGuess++;
         if (petGuess >= 6) {
@@ -35,7 +35,7 @@ function liveWA() {
   var years = prompt('How many years have I lived in Washington?');
   console.log('Years lived in WA: ', years);
   while (years !== '28') {
-    alert('Nope, guess again!');
+    alert('Nope, guess again! Hint: I was born in late \'90 and it\'s as many years as I\'ve been alive...');
     var years = prompt('How many years have I ACTUALLY lived in Washington?');
   };
   alert('Correct, I have lived in WA for 28 years!');
